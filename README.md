@@ -1,0 +1,1 @@
+Repositorio voltado a guardar códigos das aulas da faculdade da cadeira de sistemas distribuidos e usabilidade
