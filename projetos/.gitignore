@@ -2,3 +2,5 @@
 /apps/categories/__pycache__/*
 /apps/categories/migrations/* 
 .env
+/apps/products/__pycache__/*
+/apps/products/migrations/* 
