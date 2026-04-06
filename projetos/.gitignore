@@ -4,3 +4,5 @@
 .env
 /apps/products/__pycache__/*
 /apps/products/migrations/* 
+/apps/persons/__pycache__/*
+/apps/persons/migrations/* 
