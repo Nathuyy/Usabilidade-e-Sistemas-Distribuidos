@@ -22,4 +22,5 @@ urlpatterns = [
     path('categorias/', include('categories.urls', namespace='categories')),
     path('produtos/', include('products.urls', namespace='products')),
     path('persons/', include('persons.urls', namespace='persons')),
+    path('socialnetworks/', include('socialnetworks.urls', namespace='socialnetworks')),
 ]
