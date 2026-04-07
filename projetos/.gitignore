@@ -10,3 +10,5 @@
 /apps/socialnetworks/migrations/* 
 /apps/clients/__pycache__/*
 /apps/clients/migrations/*
+/apps/employees/__pycache__/*
+/apps/employees/migrations/*
