@@ -12,3 +12,5 @@
 /apps/clients/migrations/*
 /apps/employees/__pycache__/*
 /apps/employees/migrations/*
+/apps/orders/__pycache__/*
+/apps/orders/migrations/*
