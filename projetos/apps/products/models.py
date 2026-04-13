@@ -9,6 +9,8 @@ class Product(models.Model):
     is_active = models.BooleanField('Ativo', default=False)
     price = models.DecimalField('Preço', max_digits=10, decimal_places=2, default=0)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    photo = models.ImageField('Foto', upload_to='photos')
+    doc = models.FileField('Documentos', upload_to='docs')
 
     class Meta:
         verbose_name = 'Produto'

@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'orderitems.apps.OrderitemsConfig',
     'invoices.apps.InvoicesConfig',
-
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -143,7 +143,8 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+MEDIA_URL = '/media/' 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
