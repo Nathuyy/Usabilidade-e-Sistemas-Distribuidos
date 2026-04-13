@@ -26,5 +26,5 @@ urlpatterns = [
     path('clientes/', include('clients.urls', namespace='clients')),
     path('funcionarios/', include('employees.urls', namespace='employees')),
     path('pedidos/', include('orders.urls', namespace='orders')),
-
+    path('itens_pedido/', include('orderitems.urls', namespace='orderitems')),
 ]
