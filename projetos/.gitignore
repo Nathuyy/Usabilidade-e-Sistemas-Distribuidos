@@ -16,3 +16,5 @@
 /apps/orders/migrations/*
 /apps/orderitems/__pycache__/*
 /apps/orderitems/migrations/*
+/apps/invoices/__pycache__/*
+/apps/invoices/migrations/*

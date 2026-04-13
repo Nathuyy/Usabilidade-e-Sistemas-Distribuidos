@@ -27,4 +27,6 @@ urlpatterns = [
     path('funcionarios/', include('employees.urls', namespace='employees')),
     path('pedidos/', include('orders.urls', namespace='orders')),
     path('itens_pedido/', include('orderitems.urls', namespace='orderitems')),
+    path('notas/', include('invoices.urls', namespace='invoices')),
+
 ]
