@@ -56,6 +56,8 @@ INSTALLED_APPS = [
     'orderitems.apps.OrderitemsConfig',
     'invoices.apps.InvoicesConfig',
     'django_filters',
+    'core.apps.CoreConfig', 
+
 ]
 
 MIDDLEWARE = [
@@ -73,7 +75,7 @@ ROOT_URLCONF = 'modeloapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -149,3 +151,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [ 
+    os.path.join(BASE_DIR, 'staticfiles'), 
+]

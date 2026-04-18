@@ -9,4 +9,4 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name', 'brand', 'category'] # Neste campo coloque somente.
+    filterset_fields = ['name', 'description', 'category'] # Neste campo coloque somente.
